@@ -145,11 +145,11 @@
 				"typeProperties": {
 					"ifTrueActivities": [
 						{
-							"name": "updateLastcdc_copy1",
+							"name": "updateLastcdc",
 							"type": "Copy",
 							"dependsOn": [
 								{
-									"activity": "Maxcdc_copy1",
+									"activity": "Maxcdc",
 									"dependencyConditions": [
 										"Succeeded"
 									]
@@ -219,7 +219,7 @@
 							]
 						},
 						{
-							"name": "Maxcdc_copy1",
+							"name": "Maxcdc",
 							"type": "Script",
 							"dependsOn": [],
 							"policy": {
